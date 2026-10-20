@@ -1,0 +1,164 @@
+{
+  "name": "claude-trading-skills",
+  "owner": {
+    "name": "tradermonty (fork)"
+  },
+  "metadata": {
+    "description": "Marketplace das skills de trading do tradermonty/claude-trading-skills, agrupadas por categoria",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "starter-no-api",
+      "description": "Kit inicial sem API paga: navigator, breadth, uptrend, position sizer, diário e postmortem",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/trading-skills-navigator",
+        "./skills/market-breadth-analyzer",
+        "./skills/uptrend-analyzer",
+        "./skills/position-sizer",
+        "./skills/trader-memory-core",
+        "./skills/signal-postmortem"
+      ]
+    },
+    {
+      "name": "trading-strategy-research",
+      "description": "Pesquisa de estratégia e backtesting (pipeline de edge, backtesters)",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/backtest-expert",
+        "./skills/edge-candidate-agent",
+        "./skills/edge-concept-synthesizer",
+        "./skills/edge-hint-extractor",
+        "./skills/edge-pipeline-orchestrator",
+        "./skills/edge-signal-aggregator",
+        "./skills/edge-strategy-designer",
+        "./skills/edge-strategy-reviewer",
+        "./skills/manifoldbt-backtester",
+        "./skills/mt5-robot-tester",
+        "./skills/residual-edge-analyzer",
+        "./skills/scenario-analyzer",
+        "./skills/stanley-druckenmiller-investment",
+        "./skills/stockbee-20pct-study",
+        "./skills/strategy-pivot-designer"
+      ]
+    },
+    {
+      "name": "trading-market-regime",
+      "description": "Leitura do regime/saúde do mercado (breadth, uptrend, topo, macro, notícias)",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/breadth-chart-analyst",
+        "./skills/cot-contrarian-detector",
+        "./skills/crypto-regime-analyzer",
+        "./skills/downtrend-duration-analyzer",
+        "./skills/exposure-coach",
+        "./skills/ftd-detector",
+        "./skills/ibd-distribution-day-monitor",
+        "./skills/macro-regime-detector",
+        "./skills/market-breadth-analyzer",
+        "./skills/market-environment-analysis",
+        "./skills/market-news-analyst",
+        "./skills/market-top-detector",
+        "./skills/news-reaction-failure-analyzer",
+        "./skills/sector-analyst",
+        "./skills/uptrend-analyzer",
+        "./skills/us-market-bubble-detector"
+      ]
+    },
+    {
+      "name": "trading-swing-opportunity",
+      "description": "Screeners de swing trade (VCP, CANSLIM, Stockbee, Finviz, temas)",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/breakout-trade-planner",
+        "./skills/canslim-screener",
+        "./skills/finviz-screener",
+        "./skills/stockbee-exhaustion-hammer-screener",
+        "./skills/stockbee-momentum-burst-screener",
+        "./skills/theme-detector",
+        "./skills/vcp-screener"
+      ]
+    },
+    {
+      "name": "trading-trade-planning",
+      "description": "Planejamento de trade (position sizing, análise técnica, gates de disciplina)",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/contrarian-setup-gate",
+        "./skills/drawdown-circuit-breaker",
+        "./skills/futures-position-sizer",
+        "./skills/position-sizer",
+        "./skills/pre-trade-discipline-gate",
+        "./skills/technical-analyst",
+        "./skills/us-stock-analysis"
+      ]
+    },
+    {
+      "name": "trading-meta",
+      "description": "Ferramentas meta (navigator, calendários, revisão e criação de skills)",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/data-quality-checker",
+        "./skills/dual-axis-skill-reviewer",
+        "./skills/earnings-calendar",
+        "./skills/economic-calendar-fetcher",
+        "./skills/fxmacrodata-calendar",
+        "./skills/skill-designer",
+        "./skills/skill-idea-miner",
+        "./skills/skill-integration-tester",
+        "./skills/trading-skills-navigator"
+      ]
+    },
+    {
+      "name": "trading-core-portfolio",
+      "description": "Carteira de longo prazo e dividendos (screeners de dividendos, Kanchi, portfolio manager)",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/dividend-growth-pullback-screener",
+        "./skills/kanchi-dividend-review-monitor",
+        "./skills/kanchi-dividend-sop",
+        "./skills/kanchi-dividend-us-tax-accounting",
+        "./skills/portfolio-manager",
+        "./skills/us-undervalued-growth-screener",
+        "./skills/value-dividend-screener"
+      ]
+    },
+    {
+      "name": "trading-advanced-satellite",
+      "description": "Estratégias avançadas (earnings, opções, pair trade, short parabólico)",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/earnings-trade-analyzer",
+        "./skills/institutional-flow-tracker",
+        "./skills/options-strategy-advisor",
+        "./skills/pair-trade-screener",
+        "./skills/parabolic-short-trade-planner",
+        "./skills/pead-screener",
+        "./skills/stockbee-episodic-pivot-analyzer"
+      ]
+    },
+    {
+      "name": "trading-trade-memory",
+      "description": "Diário de trades e revisão de performance",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/signal-postmortem",
+        "./skills/stockbee-setup-fluency-trainer",
+        "./skills/trade-hypothesis-ideator",
+        "./skills/trade-performance-coach",
+        "./skills/trader-memory-core",
+        "./skills/weekly-performance-digest"
+      ]
+    }
+  ]
+}
